@@ -1,0 +1,24 @@
+header {
+    display: flex;
+    flex-direction: column; 
+    position: fixed;
+}
+
+li {
+    list-style: none;
+    color: #929292;
+    padding: .30rem 0;
+    cursor: pointer;
+}
+
+.main-div {
+    display: flex;
+    gap: 10rem;
+    margin-left: 30%;
+    width: 70%;
+}
+
+h2 {
+    color: #000;
+    max-width: 30ch;
+}
