@@ -1,24 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
 header {
-    display: flex;
-    flex-direction: column; 
-    position: fixed;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+}
+
+h1 {
+    font-size: 2rem;
+    max-width: 40ch;
+}
+
+img {
+    max-width: 30rem;
+}
+
+nav li {
+    padding: 0.5rem 0;
 }
 
 li {
-    list-style: none;
-    color: #929292;
-    padding: .30rem 0;
-    cursor: pointer;
+  list-style: none;
+  color: #929292;
+  cursor: pointer;
+  font-size: 0.8rem;
 }
 
 .main-div {
-    display: flex;
-    gap: 10rem;
-    margin-left: 30%;
-    width: 70%;
+  display: flex;
+  margin-left: 20%;
+  width: 70%;
+  padding: 0 0 2rem 0;
+}
+
+.main-article, .article-links {
+    max-height: 30rem;
 }
 
 h2 {
-    color: #000;
-    max-width: 30ch;
+  color: #000;
+  max-width: 30ch;
+}
+
+.articles {
+  display: flex;
+  margin-left: 20%;
+  width: 80%;
+}
+
+.right-article {
+  max-width: 50ch;
+}
+
+
+.articles p {
+    max-width: 40ch;
+    padding: 0 2rem;
 }
